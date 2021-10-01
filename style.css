@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    position: relative;
+    background-color:#4B5563;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+h1{
+    color:black;
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    width: 100%;
+    font-size: 1rem
+  }
+
+  button {
+    width: 70%;
+    margin-top: 1.3rem;
+    padding: 0.6rem 1.5rem;
+    background: black;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  
+#output {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    text-align: center;
+  }
+
