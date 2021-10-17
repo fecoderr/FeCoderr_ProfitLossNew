@@ -16,6 +16,10 @@ function submitHandler() {
 }
 
 function calculateProfitAndLoss(initial, quantity, current) {
+    if(initial<0 || quantity<0 || current<0){
+        showOutput('Enter a valid number');
+
+    }else{
     if(initial > current) {
         var loss = (initial - current) * quantity;
         var lossPercentage = (loss / initial) * 100;
@@ -29,6 +33,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
     }else{
         showOutput(`There is No Profit No Loss!!`)
     }
+}
 }
 
 function showOutput(message) {
