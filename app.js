@@ -17,6 +17,7 @@ function submitHandler() {
 
 function calculateProfitAndLoss(initial, quantity, current) {
     if(initial<0 || quantity<0 || current<0){
+    
         showOutput('Enter a valid number');
 
     }else{
